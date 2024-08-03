@@ -1,0 +1,90 @@
+/* reset */
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.FormRoot {
+  width: 340px;
+}
+
+.FormField {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px;
+}
+
+.FormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: black; /* Label color */
+}
+
+.FormMessage {
+  font-size: 13px;
+  color: black; /* Message color */
+  opacity: 0.8;
+}
+
+.InputWrapper {
+  display: flex; /* Align items horizontally */
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  width: 100%;
+  padding: 0 30px 0 40px; /* Padding to make space for the icon */
+  height: 35px;
+  border-radius: 4px;
+  background-color: rgba(29, 29, 29, 0.8); /* Light gray background */
+  color: black; /* Black text color */
+   /* Subtle shadow */
+  font-size: 15px;
+  line-height: 1;
+  
+}
+
+.SearchIcon {
+  position: absolute;
+  left: 10px; /* Adjust position from the left */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 21px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  fill: black; /* Icon color */
+}
+
+.Textarea {
+  resize: none;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #1a2421; /* Dark gray background */
+  color: black; /* Black text color */
+  border: 1px solid #dcdcdc; /* Slightly darker gray border */
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); 
+}
+.nav-nav{
+  display: flex;
+  align-items: center; 
+
+  padding-top: 27.67px;
+  font-size:15.3px;
+  font-style:  #625F69;
+  font-weight: 530;
+justify-content:space-evenly;
+
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+color:#aaa;
+}
+.nav-nav2{
+  display: flex;
+  align-items: center; 
+  gap: 40px;
+}
